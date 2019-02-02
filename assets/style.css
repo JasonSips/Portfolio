@@ -1,0 +1,12 @@
+body {
+    background: url(../assets/images/clouds.jpg);
+    background-size: cover;
+    color: blue;
+}
+
+header{
+    background-image: url(../assets/images/111.png);
+    height: 20vh;
+    color: yellow;
+}
+
