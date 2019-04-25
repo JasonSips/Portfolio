@@ -1,28 +1,40 @@
 body {
-  background-color: black;
+  background-color: gray;
 }
 #nav-bar{
 display: flex;
 flex-direction: row;
 /* background-color: red; */
+position: fixed;
+top: 0;
 }
 #landing-btn,
-#home-btn,
+#about-btn,
 #portfolio-btn,
 #contact-btn{
   border: 3px;
   border-style: outset;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   width: 25vw;
-  height: 10vh;
+  height: auto;
   /* background-color: red; */
+}
+#card{
+  height: 30vh;
+  width: 20vw;
+  border: 2%;
+  border-style: solid;
+  background-image: url(images/1.jpg);
 }
 footer{
   border-radius: 10px;
-    bottom: 0%;
+    bottom: 0;
     position: fixed;
     width: 100vw;
-    height: 10vh;
+    height: auto;
     background-color: gray;
 }  
-  
+
+#about, #contact, #portfolio{
+  padding: 2%
+}
