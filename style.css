@@ -1,0 +1,76 @@
+body {
+    background-color: #89A575;
+    text-align: center;
+    color: #F2AD5E;
+  }
+  #nav-bar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+  }
+  #landing-btn,
+  #about-btn,
+  #portfolio-btn,
+  #contact-btn{
+    border: 3px;
+    border-style: outset;
+    border-color: #F2AD5E;
+    /* opacity: 0.8; */
+    width: 33vw;
+    height: auto;
+    background-color: #05AFB5;
+    font-family: 'Monoton', cursive;
+    font-weight: bold;
+  }
+  #landing-btn:hover,
+  #about-btn:hover,
+  #portfolio-btn:hover,
+  #contact-btn:hover{
+    background-color:#EF11D9;
+    color: #89A575;
+  }
+  a > h3{
+    color: #9E283B;
+  }
+  .card{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 46vw;
+    /* border: 5px;
+    border-style: solid; */
+    
+  }
+  .holder{
+    border: 5px;
+    border-style: solid;
+    height: 100px;
+    width: 100%;
+    border-color: #AA5188;
+  }
+  input, textarea, #about, #contact, #portfolio{
+    padding: 2%;
+    padding-top: 80px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1, h2, h3, h4, h5{
+    font-size: auto;
+  }
+  #container {
+    height: auto;
+    width: 97vw;
+    overflow: hidden;
+    background-image: url(images/CodeGif.gif);
+    background-size: cover;
+  }
+  
+  #triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 97vh solid;
+    border-right: 97vw solid transparent;
+    background-image: url(images/WrenchGif.gif);
+  }
