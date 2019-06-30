@@ -73,4 +73,17 @@ body {
     border-top: 97vh solid;
     border-right: 97vw solid transparent;
     background-image: url(images/WrenchGif.gif);
-  }
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+                  
+}
+#picLeft {
+float: left;
+}
+#picRight {
+  float: right;
+}
