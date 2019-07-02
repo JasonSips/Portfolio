@@ -1,11 +1,22 @@
-.flex-container {
+/* .flex-container {
     background-color: red;
-}
+} */
 
 #picRight {
 float: right;
+position: relative;
 }
 
 #picLeft {
 float: left;
+position: relative;
 }
+
+.flex-container{
+   background-color :#98bf21;
+   height:100px;
+   width:100px;
+   position:absolute;
+
+}
+
