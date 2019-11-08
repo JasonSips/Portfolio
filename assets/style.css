@@ -1,0 +1,103 @@
+body, html {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: #0AB7BF;
+}
+
+#nav {
+  background-image: url("56707777.png");
+  font-size: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#aboutTitle {
+  font-size: 5vh;
+  color: #DA20D3;
+  text-align: left;
+  padding-left: 7vw;
+}
+
+ #name {
+  font-size: 10vh;
+  padding: 15vw;
+  }
+
+#aboutShort {
+  text-align: justify;
+  padding: 2.5vw;;
+}
+
+#parallax {
+  /* The image used */
+  background-image: url("images/para.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  background-color: black;
+  padding-top: 7vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-bottom: 12vw;
+}
+
+#moreMe {
+padding-bottom: 10vw;
+
+}
+
+  #projects {
+    background-color: rgb(0, 0, 0);
+  }
+
+  #projectsTitle {
+    padding: 2.5vw;
+    size: 30vw;
+    color: #DA20D3;
+  }
+
+  .card {
+    background-color: rgb(0, 0, 0);
+    color:  	#0AB7BF;
+    padding: 20px;
+    border: 5px solid #DA20D3; 
+    outline: 5px solid 	#0AB7BF;
+    margin: 10px;
+    border-style: outset;
+
+  }
+
+#footer {
+  background-image: url("images/111.png");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 12vh;
+  text-align: left;
+  color: black;
+}
+
+
+  
+
+
+  /* background-color: rgb(68, 68, 68);
+  padding: 20px;
+  border: 5px;
+  border-color: aqua;
+  border-style: groove;
+  outline: 10px;
+  outline-color: red;
+  box-shadow: 10px; */
