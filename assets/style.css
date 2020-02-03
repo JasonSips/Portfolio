@@ -1,8 +1,8 @@
 body, html {
   height: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(82, 82, 82);
   text-align: center;
-  color: #0AB7BF;
+  color:white;
 }
 
 #nav {
@@ -11,30 +11,45 @@ body, html {
   position: fixed;
   top: 0;
   width: 100%;
+  border: 5vh;
+  border-bottom: solid;
+  border-color: rgb(48, 134, 31);
+  z-index: 1;
+
+
 }
 
 #aboutTitle {
   font-size: 5vh;
   color: #DA20D3;
   text-align: left;
-  padding-left: 7vw;
+  padding-left: 5vw;
+  padding: 7vh;
 }
 
  #name {
-  font-size: 10vh;
-  padding: 15vw;
-  }
+  font-size: 20vh;
+  padding: 12vw;
+  background-image: url("https://media.giphy.com/media/J4DWCTog2N8rg8Prev/giphy.gif");
+  background-size: cover;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+  border-bottom: orange solid;
+
+}
 
 #aboutShort {
   text-align: justify;
-  padding: 2.5vw;;
+  padding: 2.5vw;
+  background-image: linear-gradient(bottom, rgb(82, 82, 82), rgb(44, 44, 44));
+
+
 }
 
+
 #parallax {
-  /* The image used */
-  background-image: url("images/para.jpg");
-  /* Full height */
-  height: 100%;
+  background-image: url("images/gray-and-green-wallpaper-htc-wallpapers-hd1.jpg");
+  height: 40%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -43,50 +58,52 @@ body, html {
 }
 
 #contact {
-  background-color: black;
+  background-image: linear-gradient(to top right, rgb(82, 82, 82), rgb(44, 44, 44));
   padding-top: 7vw;
   padding-left: 25vw;
   padding-right: 25vw;
-  padding-bottom: 12vw;
+  padding-bottom: 10vw;
+  border-top: white solid;
+  border-bottom: solid orange;
+
 }
 
 #moreMe {
+padding-top: 7vh;
 padding-bottom: 10vw;
+border-top: rgb(48, 134, 31);
 
 }
 
   #projects {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top right, rgb(82, 82, 82), rgb(44, 44, 44));
+    border-top: solid white;
+    padding: 5vh;
+
   }
 
   #projectsTitle {
     padding: 2.5vw;
-    size: 30vw;
-    color: #DA20D3;
+    font-size: 4vw;
+    color: rgb(48, 134, 31);
+    
   }
 
   .card {
     background-color: rgb(0, 0, 0);
-    color:  	#0AB7BF;
-    padding: 20px;
-    border: 5px solid #DA20D3; 
-    outline: 5px solid 	#0AB7BF;
-    margin: 10px;
+    color: white;
+    padding: 6vh;
+    border: 5px solid rgb(48, 134, 31); 
+    outline: 5px solid 	orange;
+    margin: 4vh;
     border-style: outset;
 
   }
 
 #footer {
-  background-image: url("images/111.png");
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  background-size: auto;
   height: 12vh;
-  text-align: left;
-  color: black;
+  background-color: black;
+
 }
 
 
