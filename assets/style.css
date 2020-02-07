@@ -28,7 +28,7 @@ body, html {
 }
 
  #name {
-  font-size: 20vh;
+  font-size: 15vh;
   padding: 12vw;
   background-image: url("https://media.giphy.com/media/J4DWCTog2N8rg8Prev/giphy.gif");
   background-size: cover;
@@ -77,7 +77,7 @@ border-top: rgb(48, 134, 31);
 
   #projects {
     background-image: linear-gradient(to top right, rgb(82, 82, 82), rgb(44, 44, 44));
-    border-top: solid white;
+    border-top: solid rgb(73, 180, 241);
     padding: 5vh;
 
   }
@@ -85,16 +85,16 @@ border-top: rgb(48, 134, 31);
   #projectsTitle {
     padding: 2.5vw;
     font-size: 4vw;
-    color: rgb(48, 134, 31);
+    color: rgb(73, 180, 241);
     
   }
 
   .card {
     background-color: rgb(0, 0, 0);
-    color: white;
+    color:rgb(73, 180, 241);
     padding: 6vh;
-    border: 5px solid rgb(48, 134, 31); 
-    outline: 5px solid 	orange;
+    border: 5px solid rgb(34, 87, 185); 
+    outline: 5px solid 	rgb(73, 180, 241);
     margin: 4vh;
     border-style: outset;
 
